@@ -1,0 +1,57 @@
+{
+	"packages": 
+	[
+		{
+			"name": "Eicon-101",
+			"maintainer": "Eicon(Vic)PtyLtd",
+			"websiteURL": "http://www.eicon-vic.com/index.html",
+			"email": "TBD",
+			"help": 
+			{
+				"online": "http://www.eicon-vic.com/index.html"
+			},
+			"platforms": 
+			[
+				{
+					"name": "Eicon(Vic)  Boards",
+					"architecture": "stm32",
+					"version": "1.0.1",
+					"category": "Contributed",
+					"help": 
+					{"online": "http://www.eicon-vic.com/index.html"},
+					"url": "https://gitlab.com/noeldiviney/Eicon-101/raw/master/package_eicon_index.json",
+					"archiveFileName": "Eicon-1.0.1.tar.bz2",
+					"checksum": "SHA-256:8bee1e83b86e7bca3cf4dee1fc1dcf69694eb462c6bbb373ed911e43ea8bee04",
+					"size": "23353",
+					"boards": 
+					[
+						{"name": "BLUEPILL_F103CB"},
+						{"name": "DRD_Blink_F427ZI"},
+						{"name": "DRD_Blink_F429ZI"},
+						{"name": "DRD_Vibos_F427ZI"}
+					],
+					"toolsDependencies": 
+					[
+						{
+							"packager": "STM32",
+							"name": "arm-none-eabi-gcc",
+							"version": "8.2.1-1.7"
+						},
+						{
+							"packager": "STM32",
+							"name": "STM32Tools",
+							"version": "1.3.0"
+						},
+						{
+							"packager": "STM32",
+							"name": "CMSIS",
+							"version": "5.5.1"
+						}
+					]
+				}
+			],
+
+			"tools": []
+		}
+	]
+}
