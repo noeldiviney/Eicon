@@ -19,7 +19,7 @@
 					"category": "Contributed",
 					"help": 
 					{"online": "http://www.eicon-vic.com/index.html"},
-					"url": "https://gitlab.com/noeldiviney/Eicon-101/raw/master/package_eicon_index.json",
+					"url": "https://github.com/noeldiviney/Eicon/raw/master/package_eicon_index.json",
 					"archiveFileName": "Eicon-1.0.1.tar.bz2",
 					"checksum": "SHA-256:8bee1e83b86e7bca3cf4dee1fc1dcf69694eb462c6bbb373ed911e43ea8bee04",
 					"size": "23353",
